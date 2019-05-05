@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c7613af-f593-4a19-b516-fcd0fc0ada26" name="Default Changelist" comment="" />
+    <list default="true" id="4c7613af-f593-4a19-b516-fcd0fc0ada26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +24,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JaSearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestJaSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +76,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JaSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestJaSearch.java" />
       </list>
     </option>
   </component>
@@ -67,6 +102,7 @@
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,6 +151,9 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -127,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestJaSearch">
     <configuration name="SimpleTest.verifySearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
@@ -140,8 +179,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJaSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJaSearch" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJaSearch.testSearchWord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJaSearch" />
+      <option name="METHOD_NAME" value="testSearchWord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestJaSearch" />
+        <item itemvalue="TestNG.TestJaSearch.testSearchWord" />
         <item itemvalue="TestNG.SimpleTest.verifySearchPage" />
       </list>
     </recent_temporary>
@@ -160,14 +224,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest_verifySearchPage - 2019.05.05 at 10h 20m 25s.xml">
+    <history-entry file="SimpleTest_verifySearchPage - 2019.05.05 at 11h 58m 16s.xml">
       <configuration name="SimpleTest.verifySearchPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SimpleTest_verifySearchPage - 2019.05.05 at 10h 21m 45s.xml">
+    <history-entry file="SimpleTest_verifySearchPage - 2019.05.05 at 11h 59m 14s.xml">
       <configuration name="SimpleTest.verifySearchPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SimpleTest_verifySearchPage - 2019.05.05 at 10h 25m 51s.xml">
-      <configuration name="SimpleTest.verifySearchPage" configurationId="TestNG" />
+    <history-entry file="TestJaSearch_testSearchWord - 2019.05.05 at 11h 59m 37s.xml">
+      <configuration name="TestJaSearch.testSearchWord" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch - 2019.05.05 at 11h 59m 38s.xml">
+      <configuration name="TestJaSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch_testSearchWord - 2019.05.05 at 12h 00m 03s.xml">
+      <configuration name="TestJaSearch.testSearchWord" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch - 2019.05.05 at 12h 00m 14s.xml">
+      <configuration name="TestJaSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch - 2019.05.05 at 12h 02m 50s.xml">
+      <configuration name="TestJaSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch_testSearchWord - 2019.05.05 at 12h 03m 42s.xml">
+      <configuration name="TestJaSearch.testSearchWord" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch - 2019.05.05 at 12h 09m 06s.xml">
+      <configuration name="TestJaSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestJaSearch - 2019.05.05 at 12h 09m 50s.xml">
+      <configuration name="TestJaSearch" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -178,16 +263,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32874015" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32874015" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32874015" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.77952754" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3996063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -204,15 +289,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JaSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="26" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestJaSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

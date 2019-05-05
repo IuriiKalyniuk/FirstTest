@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 
-
 public class SimpleTest {
 
     @Test
@@ -34,8 +33,8 @@ public class SimpleTest {
         String resultText = searchResultText.getText();
         System.out.println(resultText);
 
-        Assert.assertEquals(resultText, "You searched for \"Selenium\". 3416 results found.");
-
-
+        Assert.assertEquals(resultText, "You searched for \"Selenium\". 3420 results found.");
+        driver.quit();
+//ok
     }
 }
